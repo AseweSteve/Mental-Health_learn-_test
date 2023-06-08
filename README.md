@@ -1,5 +1,6 @@
 # code_your_feels
-This Project expresses and manages emotions. It uses technology to support mental wellness. 
+This Project expresses and manages emotions. It uses technology to support mental wellness.
+Ranging from anger, depression, suicidal thoughts, toxic relationship, disabilities etc... 
 <img src="images/a.jpeg">
 
 # &#128526; Feeling a little “blah” lately? &#128530;
