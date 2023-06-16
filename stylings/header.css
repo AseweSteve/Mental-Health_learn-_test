@@ -85,3 +85,108 @@ header{
 .wrapper .button span a img{
     margin-top: 5px;
 }
+
+/* Responsiveness for other Screens using Media Query Starts Here */
+
+@media only screen and (max-width:768px){
+    /* Home Page Mobile */
+    .symptom{
+        padding: 20px;
+    }
+    .symptom div{
+        margin: 3%;
+    }
+    .symptom div a{
+        margin: 2%;
+        text-transform: uppercase;
+        border: 2px solid maroon;
+        background-color: #f8faff;
+        color: aqua;
+        padding:  0% 0.5%;
+        border-radius: 100px;
+        transition: all 0.3s ease-in-out 0s;
+    }
+    header {
+        padding: 10px 30px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d1defa;
+    }
+    .nav-area li{
+        display: inline-block;
+        padding: 2px 1px;
+        text-transform: uppercase;
+    }
+    form{
+        position: absolute;
+        top: 11%;
+        left: 1%;
+        width: 100px;
+    }
+    form input{
+        border: 1px solid #16516d;
+        outline: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 2% 2% 2% 5%;
+        border-radius: 100px 0 0 100px;
+    }
+    form button{
+        border: 1px solid #16516d;
+        background-color:#347ea0;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: white;
+        padding: 2% 2%;
+        border-radius: 0 100px 100px 0;
+    }
+    .btn-area {
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 20px 15px;
+        border-radius: 30px 0 30px 0;
+        background: #ff7171;        
+        transition: all .3s ease 0s;    
+    }
+    .btn-area:hover{ 
+        background: #ce3c3c; 
+        transition: all .3s ease 0s;   
+        border-radius: 0 30px 0 30px;
+    }
+    .wrapper{
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+    
+    .wrapper .button{
+        margin-top: 2%;
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        box-shadow: 0 10px 10px #98ded9;
+        float: right;
+        margin: 0 5px;
+        border-radius: 30px;
+        transition: all 0.3s ease-out;
+        overflow: hidden;
+    }
+    .wrapper .button:hover{
+        width: 50px;
+    }
+    
+    .wrapper .button span{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-left: 10px;
+    }
+    .wrapper .button span a img{
+        margin-top: 5px;
+    }
