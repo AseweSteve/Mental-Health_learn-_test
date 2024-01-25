@@ -165,7 +165,7 @@ header{
     text-transform: uppercase;
     border: 2px solid maroon;
     background-color: #f8faff;
-    color: aqua;
+    color: black;
     padding:  1% 4%;
     border-radius: 100px;
     transition: all 0.3s ease-in-out 0s;
@@ -353,7 +353,7 @@ div.banner h2{
 }
 .bottom-container h3{
     font-size: 20px;
-    color: goldenrod;
+    color: black;
 }
 .bottom-container p{
     padding: 2%;
