@@ -85,6 +85,13 @@ header{
 .wrapper .button span a img{
     margin-top: 5px;
 }
+.top-container{
+    text-align: center;
+}
+.top-container iframe{
+    border-radius: 25px;
+    box-shadow: 0 10px 50px #98ded9;
+}
 
 /* Responsiveness for other Screens using Media Query Starts Here */
 
@@ -190,3 +197,4 @@ header{
     .wrapper .button span a img{
         margin-top: 5px;
     }
+}
