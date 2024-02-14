@@ -89,11 +89,11 @@ header{
     text-transform: uppercase;
     padding: 20px 35px;
     border-radius: 30px 0 30px 0;
-    background: #ff7171;        
+    background: #70423B;        
     transition: all .3s ease 0s;    
 }
 .btn-area:hover{ 
-    background: #ce3c3c; 
+    background: #70423B; 
     transition: all .3s ease 0s;   
     border-radius: 0 30px 0 30px;
 }
@@ -149,7 +149,7 @@ header{
 .symptom h1{
     font-size: 50px;
 
-    border: 2px solid aqua;
+    border: 2px solid #EFA753;
     background-color: #d1defa;
     color: goldenrod;
     display: inline-block;
@@ -219,13 +219,13 @@ a{
     
 }
 .aboutUs h1{
-    color: maroon;
+    color: #F25B51;
 }
 
 /* **********************************************Test********************************************************8 */
 .heading{
     font-family: 'Roboto', sans-serif;
-    color: #264a97;
+    color: #F25B51;
     position: absolute;
     left: 35%;
     translate: (-50%,-50%);
@@ -288,7 +288,7 @@ a{
     font-family: 'Roboto', sans-serif;  
     font-size: 20px;
     margin-left: 3%;
-    color: #0c55a8;
+    color: #C68642;
     margin-top: 10%;
 }
 .card img{
@@ -348,12 +348,12 @@ div.banner h2{
 .bottom-container h1{
     font-size: 50px;
     text-transform: uppercase;
-    color: maroon;
+    color: #46540D;
     text-align: center;
 }
 .bottom-container h3{
     font-size: 20px;
-    color: black;
+    color: #F18290;
 }
 .bottom-container p{
     padding: 2%;
@@ -427,11 +427,11 @@ div.banner h2{
         text-transform: uppercase;
         padding: 20px 15px;
         border-radius: 30px 0 30px 0;
-        background: #ff7171;        
+        background: #70423B;        
         transition: all .3s ease 0s;    
     }
     .btn-area:hover{ 
-        background: #ce3c3c; 
+        background: #70423B; 
         transition: all .3s ease 0s;   
         border-radius: 0 30px 0 30px;
     }

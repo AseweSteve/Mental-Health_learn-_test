@@ -51,25 +51,39 @@ $("#next-button").click(function(){
 $("#result-button").click(function(){
     var Result = "";
     final_score = final_score/8;
-    if(final_score <= 1){
+    if(final_score <= 0){
         Result = "Your have severe Depression.😫";
     }
     if(final_score >1 && final_score <=2){
         Result = "You are in Depression.😩";
     }
-    if(final_score >2 && final_score <2.5){
+    if(final_score >2 && final_score <3){
         Result = "You are having Mild Depression.😳";
     }
-    if(final_score ==2.5){
+    if(final_score ==4){
         Result = "You are in the Middle.😬";
     }
-    if(final_score >2.5 && final_score <=3){
+    if(final_score >2.5 && final_score <=5){
         Result = "You are fine.😊";
     }
-    if(final_score>3 && final_score<=4){
+    if(final_score>3 && final_score<=6){
         Result = "Chill you are perfectly fine.😄";
     }
     $("#result").text(Result);
 });
 
 startGame();
+
+// Get references to the buttons and result div
+const startButton = document.getElementById('start-btn');
+const nextButton = document.getElementById('next-button');
+const resultButton = document.getElementById('result-button');
+const resultDiv = document.getElementById('result');
+
+// Add event listener for the "Show Result" button
+resultButton.addEventListener('click', function() {
+    // Show the result div when the button is clicked
+    resultDiv.style.display = 'block';
+});
+
+// You can add more JavaScript to handle other functionalities

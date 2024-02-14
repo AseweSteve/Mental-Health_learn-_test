@@ -259,9 +259,9 @@
     color: rgb(191, 214, 59);
   }
   footer{
-    background-color: aqua;
+    background-color: #70423B;
     padding: 2% 8%;
-    color: maroon;
+    color: white;
     display: flex;
     justify-content: space-between;
     font-family: sans-serif;
