@@ -50,7 +50,7 @@ form button{
     font-size: 10px;
     color: white;
     padding: 2% 2%;
-    
+    border-radius: 0 100px 100px 0;
 }
 
 .hide{
@@ -97,11 +97,11 @@ form button{
     text-transform: uppercase;
     padding: 20px 35px;
     border-radius: 30px 0 30px 0;
-    background: ##70423B;        
+    background: #ff7171;        
     transition: all .3s ease 0s;    
 }
 .btn-area:hover{ 
-    background: #70423B; 
+    background: #ce3c3c; 
     transition: all .3s ease 0s;   
     border-radius: 0 30px 0 30px;
 }
@@ -264,8 +264,23 @@ form button{
         left: 1%;
         width: 100px;
     }
-    
-    
+    form input{
+        border: 1px solid #16516d;
+        outline: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 2% 2% 2% 5%;
+        border-radius: 100px 0 0 100px;
+    }
+    form button{
+        border: 1px solid #16516d;
+        background-color:#347ea0;
+        text-transform: uppercase;
+        font-size: 10px;
+        color: white;
+        padding: 2% 2%;
+        border-radius: 0 100px 100px 0;
+    }
     .btn-area {
         font-family: 'Roboto', sans-serif;
         cursor: pointer;
@@ -339,12 +354,10 @@ transition: 0.5s;
 </style>
 
 <body>
-   <div class="search">
+    <div class="search">
         <form action="https://www.google.com/search" method="GET">
-            <input type="text" name="q" style="width: calc(90% - 40px); margin:17px; padding: 8px 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px 0 0 4px; outline: none;">
-            <button type="submit" style="position: absolute; top: 0;margin:17px;  right: 0; padding: 8px 12px; background-color: #ff5722; border: 1px solid #ccc; border-radius: 4px 0 0 4px; color: white; cursor: pointer; ">search
-            <i class="fas fa-search" style="font-size: 16px;"></i>
-            </button>
+            <input type="text" name="q" style="outline: none;">
+            <button type="submit" style="outline: none;">search</button>
         </form>
     </div>
 
@@ -359,8 +372,9 @@ transition: 0.5s;
         </div>
     </div>
     <header>
+        <img class="logo" src="images/logo.png" alt="logo.png" width="35%" style="margin-bottom: 5%; margin-top: 1%;">
         <nav>
-            <ul class="nav-area" style ="margin-left: -99%;">
+            <ul class="nav-area">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Get to Know</a></li>
                 <li><a href="home.html">FEELS* ".blah."</a></li>
@@ -381,16 +395,15 @@ transition: 0.5s;
         <div class="card">
 
             <div class="image">
-                <img src="images/skylimit.webp">
+                <img src="images/2.jpg">
             </div>
-            <div class="title"  style="color :#2240A8;">
+            <div class="title">
                 <h1>Get Rid of Sucidal Thoughts</h1>
             </div>
-            <div class="des" style="color  :#587C15;">
+            <div class="des">
                 <p>Are You Feeling Suicidal?
                     If you’re thinking about suicide, your pain may seem overwhelming and permanent. But there are ways to cope with suicidal thoughts and feelings and overcome the pain. </p>
                 <button><a href ="https://www.healthline.com/symptom/suicidal-behavior#coping-strategies">Read More</a></button>
-                <button class="like-btn" onclick="toggleLike(this)">&#x1F44D;</button>
             </div>
         </div>
         <!--cards 3-->
@@ -400,13 +413,12 @@ transition: 0.5s;
             <div class="image">
                 <img src="images/4.jpg">
             </div>
-            <div class="title" style="color :#2240A8;">
+            <div class="title">
                 <h1>Controlling Anger</h1>
             </div>
-            <div class="des" style="color  :#587C15;">
+            <div class="des">
                 <p>Failing to manage your anger can lead to a variety of problems like saying things you regret, yelling at your kids, threatening your co-workers, sending rash emails, developing health problems, or even resorting to physical violence. But not all anger issues are that serious. Instead, your anger might involve wasting time thinking about upsetting events, getting frustrated in traffic, or venting about work.</p>
                 <button><a href ="https://www.medicalnewstoday.com/articles/162035">Read More</a></button>
-                <button class="like-btn" onclick="toggleLike(this)">&#x1F44D;</button>
             </div>
         </div>
 
@@ -417,13 +429,12 @@ transition: 0.5s;
             <div class="image">
                 <img src="images/3.jpg"  height="350px">
             </div>
-            <div class="title" style="color :#2240A8;">
+            <div class="title">
                 <h1>Toxic Relationship</h1>
             </div>
-            <div class="des" style="color  :#587C15;">
+            <div class="des">
                 <p>The lies and the cheating became too much to handle. And to make matters worse, He/She was also physically abusive to you.There is no easy way of getting around it.It’s going to hurt. And it’s going to hurt a lot!</p>
                 <button><a href ="https://tinybuddha.com/blog/how-to-leave-a-toxic-relationship-when-youre-still-in-love/">Read More</a></button>
-                <button class="like-btn" onclick="toggleLike(this)">&#x1F44D;</button>
             </div>
         </div>
 
@@ -437,13 +448,12 @@ transition: 0.5s;
             <div class="image">
                 <img src="images/5.jpg.crdownload">
             </div>
-            <div class="title" style="color :#2240A8;">
+            <div class="title">
                 <h1>Peer Pressure</h1>
             </div>
-            <div class="des" style="color  :#587C15;">
+            <div class="des">
                 <p>Peer pressure is the direct influence on people by peers, or the effect on an individual who is encouraged and wants to follow their peers by changing their attitudes, values or behaviors to conform to those of the influencing group or individual.</p>
                 <button><a href ="https://collegelife.co/nl/peer-pressure/">Read More</a></button>
-                <button class="like-btn" onclick="toggleLike(this)">&#x1F44D;</button>
             </div>
         </div>
         <!--cards 6-->
@@ -453,13 +463,12 @@ transition: 0.5s;
             <div class="image">
                 <img src="images/6.jpg" height="350px">
             </div>
-            <div class="title" style="color :#2240A8;">
+            <div class="title">
                 <h1>Perception - Disabilities</h1>
             </div>
-            <div class="des" style="color  :#587C15;">
+            <div class="des">
                 <p>Inspiration…a term often used when an able-bodied individual witnesses a person with a disability competing, or participating in, a challenging activity despite a physical impairment.Remember The only Disibality is your bad attitude</p>
                 <button><a href ="https://www.abilities.com/community/inspirational.html">Read More</a></button>
-                <button class="like-btn" onclick="toggleLike(this)">&#x1F44D;</button>
             </div>
         </div>
         <!--cards -->
