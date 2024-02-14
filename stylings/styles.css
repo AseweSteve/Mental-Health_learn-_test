@@ -138,7 +138,7 @@ footer{
     .symptom div a{
         margin: 2%;
         text-transform: uppercase;
-        border: 2px solid maroon;
+        border: #70423B;
         background-color: #f8faff;
         color: aqua;
         padding:  0% 0.5%;
@@ -154,9 +154,10 @@ footer{
         background-color: #d1defa;
     }
     .nav-area li{
-        display: inline-block;
-        padding: 2px 1px;
+        display: flex;
+        padding: 20px 20px;
         text-transform: uppercase;
+        margin: auto;
     }
     form{
         position: absolute;
@@ -190,11 +191,11 @@ footer{
         text-transform: uppercase;
         padding: 20px 15px;
         border-radius: 30px 0 30px 0;
-        background: #ff7171;        
+        background: #70423B;        
         transition: all .3s ease 0s;    
     }
     .btn-area:hover{ 
-        background: #ce3c3c; 
+        background: #70423B; 
         transition: all .3s ease 0s;   
         border-radius: 0 30px 0 30px;
     }
@@ -255,4 +256,38 @@ footer{
         font-size: 13px;
         font-weight: 500;
       }
+}
+
+/* styles.css */
+
+body {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Vibur', cursive;
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+}
+
+.like-btn {
+    font-size: 24px; /* Adjust the font size as needed */
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease; /* Add transition effect for smooth animation */
+}
+
+.like-btn.liked {
+    color: #4CAF50; /* Change color to green when liked */
+    transform: scale(1.2); /* Scale up the size of the button when liked */
+}
+
+#signup-form{
+    text-align: center;
+    width: 70%;
+    margin: 258px;
+    padding: 10px;
+
 }

@@ -4,47 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylings/home.css">
+    <link rel="stylesheet" href="stylings/styles.css"> <!-- Include your custom CSS file -->
 </head>
 <body>
-    <section class="flex items-center justify-center my-40">
-        <div class="flex rounded-2xl shadow-lg max-w-3xl p-5 bg-[#101F3C]">
-            <div class="sm:w-1/2 px-8">
-                <h2 class="font-bold text-2xl text-[#F44F10]">SignUp</h2>
-                <div id="signupSuccess" class="alert alert-success text-green-700 mt-5" style="display: none;">
-                    Sign-up successful! Redirecting to sign-in...
-                </div>
-                <form id="signupForm" class="flex flex-col gap-4 mt-8">
-                    <label class="text-white" for="username">Username</label>
-                    <input class="p-2 rounded-xl border w-full" id="username" name="username" type="text" placeholder="Username">
-                    <div id="usernameError" class="text-red-900"></div>
-                    <label class="text-white" for="email">Email address</label>
-                    <input class="p-2 rounded-xl border w-full" id="email" name="email" type="text" placeholder="Email address">
-                    <div id="emailError" class="text-red-900"></div>
-                    <label class="text-white" for="password">Password</label>
-                    <div>
-                        <input class="p-2 rounded-xl border w-full" id="password" name="password" type="password" placeholder="Password">
-                    </div>
-                    <div id="passwordError" class="text-red-900"></div>
-                    <button type="button" onclick="signup()" class="bg-[#F44F10]  rounded-xl text-white py-2">SignUp</button>
-                </form>
-                <div class="mt-10 grid grid-cols-3 items-centre text-gray-500">
-                    <hr>
-                    <p class="text-center">OR</p>
-                    <hr>
-                </div>
-                <div class="flex justify-between item centre gap-6 my-8">
-                    <p class="text-white">
-                        Already registered? <a class="hover:bg-[#F44F10] px-4 py-3 rounded-lg transition" href="/login">LogIn</a>
-                    </p>
-                </div>
-            </div>
-            <div class="sm:block hidden w-1/2">
-                <img class="h-full rounded-2xl" src="https://img.freepik.com/free-photo/cardano-blockchain-platform_23-2150411956.jpg" alt="">
-            </div>
+ <section id="header">
+    <div class="search">
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" style="width: calc(100% - 40px); padding: 8px 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px 0 0 4px; outline: none;">
+            <button type="submit" style="position: absolute; top: 0; right: 0; padding: 8px 12px; background-color: #ff5722; border: 1px solid #ccc; border-radius: 4px 0 0 4px; color: white; cursor: pointer; ">search
+            <i class="fas fa-search" style="font-size: 16px;"></i>
+            </button>
+        </form>
+    </div>
+    <div class="wrapper">
+        <div class="button">
+            <span>
+                <a href=""><img src="https://img.icons8.com/officel/50/000000/whatsapp.png"/>
+                <a href="https://web.facebook.com/profile.php?id=100088667111988"> <img src="https://img.icons8.com/color/50/000000/facebook-new.png"/></a>
+                <a href="https://instagram.com/AseweSteve?igshid=YmMyMTA2M2Y="><img src="https://img.icons8.com/fluent/50/000000/instagram-new.png"/></a>
+                <a href="https://www.youtube.com/channel/UCa7aDHgwTSX5FCntoqh1dLQ"><img src="https://img.icons8.com/color/50/000000/youtube--v1.png"/></a>
+            </span>
         </div>
-    </section>
+    </div>
+    <header>
+        <nav>
+            <ul class="nav-area" style ="margin-left: -108%;">
+                <li><a href="index.html">Home ||</a></li>
+                <li><a href="blog.html">Get to Know ||</a></li>
+                <li><a href="home.html">FEELS* ".blah." ||</a></li>
+                <li><a href="depression.html">Depression Test</a></li>
+                <li><a href="register.html">Signup</a></li>
+            </ul>
+        </nav>
+        <a href="#tests" class="btn-area">Mental Health Assessment</a>
+    </header>
+</section>
+    <div class="container">
+        <h2>Signup</h2>
+        <form id="signup-form">
+            <input id="input1" type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" id="login-redirect">Signup</button>
+        </form>
+        <div id="signup-message"></div>
+    </div>
 
-    <script src="script.js"></script>
+    <script src="javascript/index.js"></script>
 </body>
 </html>
