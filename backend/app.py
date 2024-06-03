@@ -1,17 +1,14 @@
 import os
+from flask import Flask, jsonify, make_response, request, session
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 from flask_bcrypt import Bcrypt
-from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, SubmitField
-from wtforms.validators import DataRequired, Email, EqualTo, Length
 from flask_migrate import Migrate
-from models.user import User
-from flask import Flask, jsonify, make_response, request, session
 import secrets
+from models.user import User
 from models.dbconfig import db
-secret_key = secrets.token_hex(24)
 
+secret_key = secrets.token_hex(24)
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
@@ -23,8 +20,6 @@ jwt = JWTManager(app)
 CORS(app)
 migrate = Migrate(app, db)
 db.init_app(app)
-
-
 
 # Register a new user
 @app.route('/signup', methods=['POST', 'GET'])
@@ -56,6 +51,7 @@ def signup():
     elif request.method == 'GET':
         # Handle GET request for signup page (if needed)
         return jsonify({'message': 'Welcome to signup page'}), 200
+
 @app.route('/login', methods=['POST'])
 def login():
     # Get user data from the request
@@ -67,19 +63,11 @@ def login():
     user = User.query.filter_by(username=username).first()
 
     if user and bcrypt.check_password_hash(user.password, password):
-        # Log the user in by saving their ID in the session
-        session['user_id'] = user.id
-        return jsonify({
-            'user_id': user.id,
-            'username': user.username,
-            'email': user.email
-        }), 200  # Successful login, return status code 200
+        # Create JWT token
+        access_token = create_access_token(identity={'username': user.username, 'email': user.email})
+        return jsonify(access_token=access_token), 200  # Successful login, return status code 200
     else:
         return jsonify({'message': 'Login failed'}), 401  # Unauthorized status code
-
-# Check session route
-# Logout route
-
 
 @app.route('/logout', methods=['DELETE'])
 def logout():
@@ -87,8 +75,5 @@ def logout():
     session.pop('user_id', None)
     return jsonify({'message': 'Logged out successfully'}), 200
 
-
 if __name__ == "__main__":
-  app.run(port=5555, debug=True)
-
-
+    app.run(port=5555, debug=True)
