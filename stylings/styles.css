@@ -241,7 +241,7 @@ footer{
     .btn-grid button.btn{
         margin: 2% 1%;
         padding: 2% 2%;
-        color: #eb3737;
+        color: #2a4359;
         cursor: pointer;
         border-radius: 100px;
     }
@@ -262,7 +262,7 @@ footer{
 
 body {
     background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(to top, #2a4359 0%, #daa442 100%);
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: 'Vibur', cursive;
