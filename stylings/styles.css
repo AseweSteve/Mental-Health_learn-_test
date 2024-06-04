@@ -1,7 +1,7 @@
 .border{
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    border: 2px solid #93a4ab; 
+    border: 2px solid #2a4359; 
     display: inline-block;
     background-color: #daa442;
     top: 40%;
@@ -15,18 +15,18 @@
 .btn-grid button.btn{
     margin: 4% 1%;
     padding: 2% 4%;
-    color: #eb3737;
+    color: #f2f3f2;
     cursor: pointer;
     border-radius: 100px;
     text-transform: uppercase;
-    border: 1px solid #f79494;
-    background-color: #ffdcdc;
+    border: 1px solid #daa442;
+    background-color: #2a4359;
     transition: all 0.3s ease-in-out 0s;
     outline: none;
 }
 
 .btn-grid button.btn:hover{
-    background-color: #faa2a2;
+    background-color: #daa442;
     transition: all 0.3s ease-in-out 0s;
 }
 
@@ -42,14 +42,14 @@
     border-radius: 100px;
     padding: 20px;
     border: 0px;
-    background-color: #ff7171;
+    background-color: #2a4359;
     color: white;
     transition: all 0.3s ease-in-out 0s;
 }
 .start-btn:hover,.next-btn:hover{
-    background-color: aqua;
-    color: #ff7171;
-    border: 2px solid goldenrod;
+    background-color: #daa442;
+    color: #f2f3f2;
+    border: 2px solid #2a4359;
     transition: all 0.3s ease-in-out 0s;
 }
 #question-container,.controls{
@@ -59,7 +59,7 @@
 #question{
     margin-top: 3%;
     font-size: 30px;
-    color: aqua;
+    color: #f2f3f2;
 }
 
 #result{
@@ -67,7 +67,7 @@
     bottom: 10%;
     font-size: 40px;
     left: 18%;
-    color: goldenrod;
+    color: #2a4359;
 }
 
 
@@ -85,13 +85,13 @@
     position: absolute;
     right: 10px;
     top: 10px;
-    color: #eb3737;
+    color: #f2f3f2;
 }
 footer{
-    background-color: aqua;
+    background-color: #daa442;
     padding: 2% 8%;
     margin-top: 50%;
-    color: maroon;
+    color: #2a4359;
     display: flex;
     justify-content: space-between;
     font-family: sans-serif;
@@ -106,9 +106,9 @@ footer{
     .border{
         font-family: 'Roboto', sans-serif;
         position: absolute;
-        border: 2px solid #ff7171; 
+        border: 2px solid #2a4359; 
         display: inline-block;
-        background-color: #347ea0;
+        background-color: #daa442;
         top: 50%;
         left: 2%;
         transform: translate((-50%,-50%));
@@ -120,14 +120,14 @@ footer{
     #question{
         margin-top: 3%;
         font-size: 20px;
-        color: aqua;
+        color: #f2f3f2;
     }
     #result{
         position: absolute;
         bottom: 3%;
         font-size: 30px;
         left: 18%;
-        color: goldenrod;
+        color: #f2f3f2;
     }
     .symptom{
         padding: 20px;
@@ -138,9 +138,9 @@ footer{
     .symptom div a{
         margin: 2%;
         text-transform: uppercase;
-        border: #70423B;
+        border: #daa442;
         background-color: #f8faff;
-        color: aqua;
+        color: #daa442;
         padding:  0% 0.5%;
         border-radius: 100px;
         transition: all 0.3s ease-in-out 0s;
@@ -151,7 +151,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #d1defa;
+        background-color: #2a4359;
     }
     .nav-area li{
         display: flex;
@@ -166,7 +166,7 @@ footer{
         width: 100px;
     }
     form input{
-        border: 1px solid #16516d;
+        border: 1px solid #daa442;
         outline: none;
         text-transform: uppercase;
         font-size: 10px;
@@ -174,8 +174,8 @@ footer{
         border-radius: 100px 0 0 100px;
     }
     form button{
-        border: 1px solid #16516d;
-        background-color:#347ea0;
+        border: 1px solid #daa442;
+        background-color: #2a4359;
         text-transform: uppercase;
         font-size: 10px;
         color: white;
@@ -191,11 +191,11 @@ footer{
         text-transform: uppercase;
         padding: 20px 15px;
         border-radius: 30px 0 30px 0;
-        background: #70423B;        
+        background: #2a4359;        
         transition: all .3s ease 0s;    
     }
     .btn-area:hover{ 
-        background: #70423B; 
+        background: #2a4359; 
         transition: all .3s ease 0s;   
         border-radius: 0 30px 0 30px;
     }
@@ -218,7 +218,7 @@ footer{
         display: inline-block;
         height: 60px;
         width: 60px;
-        box-shadow: 0 10px 10px #98ded9;
+        box-shadow: 0 10px 10px #daa442;
         float: right;
         margin: 0 5px;
         border-radius: 30px;
@@ -246,10 +246,10 @@ footer{
         border-radius: 100px;
     }
     footer{
-        background-color: aqua;
+        background-color: #f8faff;
         padding: 2% 8%;
         margin-top: 160%;
-        color: maroon;
+        color: #2a4359;
         display: flex;
         justify-content: space-between;
         font-family: sans-serif;
