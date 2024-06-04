@@ -1,4 +1,4 @@
-body{
+.body{
 
     transition: all 0.3s ease-in-out 0s;
     transition: all .3s ease 0s;
@@ -34,23 +34,23 @@ header{
 }
 .nav-area li a{
     transition: all .3s ease 0s;
-    color: #16516d;
+    color: #f2f3f2;
     font-family: 'Roboto', sans-serif;
 }
 .btn-area {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    color: #fff;
+    color: #f2f3f2;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 20px 35px;
     border-radius: 30px 0 30px 0;
-    background: #70423B;        
+    background: #daa442;        
     transition: all .3s ease 0s;    
 }
 .btn-area:hover{ 
-    background: #70423B; 
+    background: #2a4359; 
     transition: all .3s ease 0s;   
     border-radius: 0 30px 0 30px;
 }
@@ -65,7 +65,7 @@ header{
     display: inline-block;
     height: 70px;
     width: 70px;
-    box-shadow: 0 10px 10px #98ded9;
+    box-shadow: 0 10px 10px #daa442;
     float: right;
     margin: 0 5px;
     border-radius: 50px;
@@ -90,7 +90,7 @@ header{
 }
 .top-container iframe{
     border-radius: 25px;
-    box-shadow: 0 10px 50px #98ded9;
+    box-shadow: 0 10px 50px #daa442;
 }
 
 /* Responsiveness for other Screens using Media Query Starts Here */
@@ -106,9 +106,9 @@ header{
     .symptom div a{
         margin: 2%;
         text-transform: uppercase;
-        border: 2px solid maroon;
-        background-color: #f8faff;
-        color: aqua;
+        border: 2px solid #daa442;
+        background-color: #2a4359;
+        color: #f2f3f2;
         padding:  0% 0.5%;
         border-radius: 100px;
         transition: all 0.3s ease-in-out 0s;
@@ -119,7 +119,7 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #d1defa;
+        background-color: #2a4359;
     }
     .nav-area li{
         display: inline-block;
@@ -133,7 +133,7 @@ header{
         width: 100px;
     }
     form input{
-        border: 1px solid #16516d;
+        border: 1px solid #daa442;
         outline: none;
         text-transform: uppercase;
         font-size: 10px;
@@ -141,8 +141,8 @@ header{
         border-radius: 100px 0 0 100px;
     }
     form button{
-        border: 1px solid #16516d;
-        background-color:#347ea0;
+        border: 1px solid #daa442;
+        background-color:#2a4359;
         text-transform: uppercase;
         font-size: 10px;
         color: white;
@@ -158,11 +158,11 @@ header{
         text-transform: uppercase;
         padding: 20px 15px;
         border-radius: 30px 0 30px 0;
-        background: #ff7171;        
+        background: #daa442;        
         transition: all .3s ease 0s;    
     }
     .btn-area:hover{ 
-        background: #ce3c3c; 
+        background: #daa442; 
         transition: all .3s ease 0s;   
         border-radius: 0 30px 0 30px;
     }
@@ -177,7 +177,7 @@ header{
         display: inline-block;
         height: 60px;
         width: 60px;
-        box-shadow: 0 10px 10px #98ded9;
+        box-shadow: 0 10px 10px #daa442;
         float: right;
         margin: 0 5px;
         border-radius: 30px;
