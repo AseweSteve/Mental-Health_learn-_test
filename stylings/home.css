@@ -11,7 +11,7 @@ form{
     width: 200px;
 }
 form input{
-    border: 1px solid #16516d;
+    border: 1px solid #f2f3f2;
     outline: none;
     text-transform: uppercase;
     font-size: 10px;
@@ -19,8 +19,8 @@ form input{
     border-radius: 100px 0 0 100px;
 }
 form button{
-    border: 1px solid #16516d;
-    background-color:#347ea0;
+    border: 1px solid #daa442;
+    background-color: #2a4359;
     text-transform: uppercase;
     font-size: 10px;
     color: white;
@@ -61,7 +61,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0px 400px;
-    background-color: #d1defa;
+    background-color: #2a4359;
 }
 
 .logo{
@@ -77,23 +77,23 @@ header{
 }
 .nav-area li a{
     transition: all .3s ease 0s;
-    color: #16516d;
+    color: #f2f3f2;
     font-family: 'Roboto', sans-serif;
 }
 .btn-area {
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    color: #fff;
+    color: #daa442;
     font-size: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 20px 35px;
     border-radius: 30px 0 30px 0;
-    background: #70423B;        
+    background: #f2f3f2;        
     transition: all .3s ease 0s;    
 }
 .btn-area:hover{ 
-    background: #70423B; 
+    background: #f2f3f2; 
     transition: all .3s ease 0s;   
     border-radius: 0 30px 0 30px;
 }
@@ -108,7 +108,7 @@ header{
     display: inline-block;
     height: 70px;
     width: 70px;
-    box-shadow: 0 10px 10px #98ded9;
+    box-shadow: 0 10px 10px #daa442;
     float: right;
     margin: 0 5px;
     border-radius: 50px;
@@ -134,7 +134,7 @@ header{
 }
 .top-container iframe{
     border-radius: 25px;
-    box-shadow: 0 10px 50px #98ded9;
+    box-shadow: 0 10px 50px #2a4359;
 }
 
 
@@ -149,9 +149,9 @@ header{
 .symptom h1{
     font-size: 50px;
 
-    border: 2px solid #EFA753;
-    background-color: #d1defa;
-    color: goldenrod;
+    border: 2px solid #2a4359;
+    background-color: #daa442;
+    color: #f2f3f2;
     display: inline-block;
     padding:  1% 4%;
     border-radius: 100px;
@@ -163,15 +163,15 @@ header{
 .symptom div a{
     margin: 4%;
     text-transform: uppercase;
-    border: 2px solid maroon;
-    background-color: #f8faff;
-    color: black;
+    border: 2px solid #daa442;
+    background-color: #2a4359;
+    color: #f2f3f2;
     padding:  1% 4%;
     border-radius: 100px;
     transition: all 0.3s ease-in-out 0s;
 }
 .symptom div a:hover{
-    background-color: #d1defa;
+    background-color: #daa442;
     transition: all 0.3s ease-in-out 0s;
 }
 .show{
@@ -188,18 +188,18 @@ a{
 }
 
 .symp{
-    background-color: #dae4fd;
+    background-color: #2a4359;
     padding: 2%;
     text-align: left;
-    border: 2px solid aqua;
+    border: 2px solid #daa442;
     border-radius: 0 0 50px 50px;
 }
 .symp h2{
-    color: maroon;
+    color: #daa442;
     font-size: 50px;
 }
 .symp ul li{
-    color: green;
+    color: #f2f3f2;
     font-weight: lighter;
     font-size: 20px;
     list-style: none;
@@ -213,19 +213,19 @@ a{
     line-height: 25px;
     font-weight: lighter;
     margin-top: 50px;
-    background-color:  #dae4fd;
+    background-color:  #2a4359;
     padding: 30px 250px;
-    color: #264a97;
+    color: #f2f3f2;
     
 }
 .aboutUs h1{
-    color: #F25B51;
+    color: #daa442;
 }
 
 /* **********************************************Test********************************************************8 */
 .heading{
     font-family: 'Roboto', sans-serif;
-    color: #F25B51;
+    color: #daa442;
     position: absolute;
     left: 35%;
     translate: (-50%,-50%);
@@ -233,12 +233,12 @@ a{
 .bubble{
     width: 125px;
     height: 85px;
-    background: #9fd8df;
+    background: #daa442;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     border-radius: 10px;
     left: 50%;
-    color: black;
+    color: #f2f3f2;
     margin-top: 4%;
     transform: translate(-50%,-50%);
 }
@@ -248,7 +248,7 @@ a{
     width: 0px;
     height: 0;
     border-top: 13px solid transparent;
-    border-right: 26px solid #9fd8df;
+    border-right: 26px solid #2a4359;
     border-bottom: 13px solid transparent;
     margin: 13px 0 0 -25px;
 }
@@ -258,7 +258,7 @@ a{
     left: 40%;
     bottom: -40%;
     font-family: 'Roboto', sans-serif;
-    color: #264a97;
+    color: #f2f3f2;
 }
 
 .extra{
@@ -275,11 +275,11 @@ a{
     cursor: pointer;
     display: inline-block;
     border-radius: 20px;
-    border: 2px solid aqua;
+    border: 2px solid #2a4359;
     margin: 20px;
     height: 400px;
     width: 300px;
-    background-color: #98ded963;
+    background-color: #daa442;
 }
 .card p{
     text-transform: uppercase;
@@ -288,7 +288,7 @@ a{
     font-family: 'Roboto', sans-serif;  
     font-size: 20px;
     margin-left: 3%;
-    color: #C68642;
+    color: #f2f3f2;
     margin-top: 10%;
 }
 .card img{
@@ -308,11 +308,11 @@ a{
     background-color: #f5c0c0;
 } */
 div.banner a{
-    color: rgb(247, 57, 89);
+    color: #f2f3f2;
     font-size: 25px;
     padding:3px 6px;
     border-radius: 5px;
-    border: 2px solid rgb(247, 57, 89);
+    border: 2px solid #f2f3f2;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     position: absolute;
@@ -321,7 +321,7 @@ div.banner a{
     transform: translate(-50%,-50%);
 }
 div.banner h2{
-    color: rgb(247, 57, 89);
+    color: #f2f3f2;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -340,25 +340,25 @@ div.banner h2{
 .bottom-container{
     margin: 20px 350px;
     font-family: 'Roboto', sans-serif;
-    border: 2px solid aqua;
+    border: 2px solid #daa442;
     padding: 2%;
     border-radius: 50px 0 50px 0;
-    background-color: #d1defa;
+    background-color: #2a4359;
 }
 .bottom-container h1{
     font-size: 50px;
     text-transform: uppercase;
-    color: #46540D;
+    color: #f2f3f2;
     text-align: center;
 }
 .bottom-container h3{
     font-size: 20px;
-    color: #F18290;
+    color: #daa442;
 }
 .bottom-container p{
     padding: 2%;
     line-height: 22px;
-    color: #0c55a8;
+    color: #f2f3f2;
     font-weight: lighter;
 }
 
@@ -375,9 +375,9 @@ div.banner h2{
     .symptom div a{
         margin: 2%;
         text-transform: uppercase;
-        border: 2px solid maroon;
-        background-color: #f8faff;
-        color: aqua;
+        border: 2px solid #daa442;
+        background-color: #2a4359;
+        color: #f2f3f2;
         padding:  0% 0.5%;
         border-radius: 100px;
         transition: all 0.3s ease-in-out 0s;
@@ -388,7 +388,7 @@ div.banner h2{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #d1defa;
+        background-color: #2a4359;
     }
     .nav-area li{
         display: inline-block;
@@ -402,7 +402,7 @@ div.banner h2{
         width: 100px;
     }
     form input{
-        border: 1px solid #16516d;
+        border: 1px solid #daa442;
         outline: none;
         text-transform: uppercase;
         font-size: 10px;
@@ -410,8 +410,8 @@ div.banner h2{
         border-radius: 100px 0 0 100px;
     }
     form button{
-        border: 1px solid #16516d;
-        background-color:#347ea0;
+        border: 1px solid #daa442;
+        background-color:#2a4359;
         text-transform: uppercase;
         font-size: 10px;
         color: white;
@@ -427,11 +427,11 @@ div.banner h2{
         text-transform: uppercase;
         padding: 20px 15px;
         border-radius: 30px 0 30px 0;
-        background: #70423B;        
+        background: #daa442;        
         transition: all .3s ease 0s;    
     }
     .btn-area:hover{ 
-        background: #70423B; 
+        background: #daa442; 
         transition: all .3s ease 0s;   
         border-radius: 0 30px 0 30px;
     }
@@ -446,7 +446,7 @@ div.banner h2{
         display: inline-block;
         height: 60px;
         width: 60px;
-        box-shadow: 0 10px 10px #98ded9;
+        box-shadow: 0 10px 10px #daa442;
         float: right;
         margin: 0 5px;
         border-radius: 30px;
@@ -470,7 +470,7 @@ div.banner h2{
     /* **********************************************Test********************************************************8 */
 .heading{
     font-family: 'Roboto', sans-serif;
-    color: #264a97;
+    color: #f2f3f2;
     position: absolute;
     text-align: center;
     font-size: larger;
@@ -481,7 +481,7 @@ div.banner h2{
 .bubble{
     width: 125px;
     height: 85px;
-    background: #9fd8df;
+    background: #daa442;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     border-radius: 10px;
@@ -496,7 +496,7 @@ div.banner h2{
     width: 0px;
     height: 0;
     border-top: 13px solid transparent;
-    border-right: 26px solid #9fd8df;
+    border-right: 26px solid #2a4359;
     border-bottom: 13px solid transparent;
     margin: 13px 0 0 -25px;
 }
@@ -506,7 +506,7 @@ div.banner h2{
     left: 40%;
     bottom: -40%;
     font-family: 'Roboto', sans-serif;
-    color: #264a97;
+    color: #f2f3f2;
 }
 
 .extra{
@@ -523,11 +523,11 @@ div.banner h2{
     cursor: pointer;
     display: inline-block;
     border-radius: 20px;
-    border: 2px solid aqua;
+    border: 2px solid #2a4359;
     margin: 20px;
     height: 400px;
     width: 300px;
-    background-color: #98ded963;
+    background-color: #daa442;
 }
 .card p{
     text-transform: uppercase;
@@ -536,7 +536,7 @@ div.banner h2{
     font-family: 'Roboto', sans-serif;  
     font-size: 20px;
     margin-left: 3%;
-    color: #0c55a8;
+    color: #f2f3f2;
     margin-top: 10%;
 }
 .card img{
@@ -555,11 +555,11 @@ div.banner h2{
         padding-left: 20px;
     }
     div.banner a{
-        color: rgb(247, 57, 89);
+        color: #f2f3f2;
         font-size: 25px;
         padding:3px 6px;
         border-radius: 5px;
-        border: 2px solid rgb(247, 57, 89);
+        border: 2px solid #f2f3f2;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
         position: absolute;
@@ -568,7 +568,7 @@ div.banner h2{
         transform: translate(-50%,-50%);
     }
     div.banner h2{
-        color: rgb(247, 57, 89);
+        color: #f2f3f2;
         font-size: 30px;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
@@ -587,7 +587,7 @@ div.banner h2{
     .bottom-container{
         margin: 30px 10px;
         font-family: 'Roboto', sans-serif;
-        border: 2px solid aqua;
+        border: 2px solid #daa442;
         padding: 2%;
         border-radius: 50px 0 50px 0;
         background-color: #d1defa;
@@ -595,18 +595,18 @@ div.banner h2{
     .bottom-container h1{
         font-size: 40px;
         text-transform: uppercase;
-        color: maroon;
+        color: #f2f3f2;
         text-align: center;
     }
     .bottom-container h3{
         font-size: 15px;
-        color: goldenrod;
+        color: #daa442;
         padding: 3%;
     }
     .bottom-container p{
         padding: 2%;
         line-height: 22px;
-        color: #0c55a8;
+        color: #f2f3f2;
         font-weight: lighter;
     }
    
@@ -621,9 +621,9 @@ div.banner h2{
         line-height: 25px;
         font-weight: lighter;
         margin-top: 25px;
-        background-color:  #dae4fd;
+        background-color:  #2a4359;
         padding: 15px 50px;
-        color: #264a97;
+        color: #f2f3f2;
     }
     #about-head img {
         width: 100%;
