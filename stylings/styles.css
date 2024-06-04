@@ -283,11 +283,3 @@ body {
     color: #4CAF50; /* Change color to green when liked */
     transform: scale(1.2); /* Scale up the size of the button when liked */
 }
-
-#signup-form{
-    text-align: center;
-    width: 70%;
-    margin: 258px;
-    padding: 10px;
-
-}

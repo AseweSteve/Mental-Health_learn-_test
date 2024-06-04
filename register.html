@@ -2,55 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup</title>
-    <link rel="stylesheet" href="stylings/home.css">
-    <link rel="stylesheet" href="stylings/styles.css"> <!-- Include your custom CSS file -->
+    <title>Login and Signup Form</title>
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
- <section id="header">
-    <div class="search">
-        <form action="https://www.google.com/search" method="GET">
-            <input type="text" name="q" style="width: calc(100% - 40px); padding: 8px 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px 0 0 4px; outline: none;">
-            <button type="submit" style="position: absolute; top: 0; right: 0; padding: 8px 12px; background-color: #ff5722; border: 1px solid #ccc; border-radius: 4px 0 0 4px; color: white; cursor: pointer; ">search
-            <i class="fas fa-search" style="font-size: 16px;"></i>
-            </button>
-        </form>
-    </div>
-    <div class="wrapper">
-        <div class="button">
-            <span>
-                <a href=""><img src="https://img.icons8.com/officel/50/000000/whatsapp.png"/>
-                <a href="https://web.facebook.com/profile.php?id=100088667111988"> <img src="https://img.icons8.com/color/50/000000/facebook-new.png"/></a>
-                <a href="https://instagram.com/AseweSteve?igshid=YmMyMTA2M2Y="><img src="https://img.icons8.com/fluent/50/000000/instagram-new.png"/></a>
-                <a href="https://www.youtube.com/channel/UCa7aDHgwTSX5FCntoqh1dLQ"><img src="https://img.icons8.com/color/50/000000/youtube--v1.png"/></a>
-            </span>
+    <div class="container">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="loginToggle" class="active">Login</button>
+                <button id="signupToggle">Sign Up</button>
+            </div>
+            <div class="form-body">
+                <div id="loginForm" class="form active">
+                    <h2>LOGIN</h2>
+                    <form>
+                        <p class="field">
+                            <label for="loginEmail">E-MAIL</label>
+                            <input type="email" id="loginEmail" name="loginEmail" required>
+                        </p>
+                        <p class="field">
+                            <label for="loginPassword">PASSWORD</label>
+                            <input type="password" id="loginPassword" name="loginPassword" required>
+                        </p>
+                        <p class="field">
+                            <label class="checkbox">
+                                <input type="checkbox" name="rememberMe"> Keep me Signed in
+                            </label>
+                        </p>
+                        <p class="field">
+                            <button type="submit" class="submit-btn">LOGIN</button>
+                        </p>
+                        <p class="field">
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </p>
+                        <p class="field">
+                            <button class="social-btn google-btn">Login with Google</button>
+                        </p>
+                    </form>
+                </div>
+                <div id="signupForm" class="form">
+                    <h2>SIGN UP</h2>
+                    <form>
+                        <p class="field">
+                            <label for="signupUsername">USERNAME</label>
+                            <input type="text" id="signupUsername" name="signupUsername" required>
+                        </p>
+                        <p class="field">
+                            <label for="signupEmail">E-MAIL</label>
+                            <input type="email" id="signupEmail" name="signupEmail" required>
+                        </p>
+                        <p class="field">
+                            <label for="signupPassword">PASSWORD</label>
+                            <input type="password" id="signupPassword" name="signupPassword" required>
+                        </p>
+                        <p class="field">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword" required>
+                        </p>
+                        <p class="field">
+                            <button type="submit" class="submit-btn">SIGN UP</button>
+                        </p>
+                        <p class="field">
+                            <button class="social-btn google-btn">Sign up with Google</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-    <header>
-        <nav>
-            <ul class="nav-area" style ="margin-left: -108%;">
-                <li><a href="index.html">Home ||</a></li>
-                <li><a href="blog.html">Get to Know ||</a></li>
-                <li><a href="home.html">FEELS* ".blah." ||</a></li>
-                <li><a href="depression.html">Depression Test</a></li>
-                <li><a href="register.html">Signup</a></li>
-            </ul>
-        </nav>
-        <a href="#tests" class="btn-area">Mental Health Assessment</a>
-    </header>
-</section>
-    <div class="container">
-        <h2>Signup</h2>
-        <form id="signup-form">
-            <input id="input1" type="text" id="username" placeholder="Username" required>
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit" id="login-redirect">Signup</button>
-        </form>
-        <div id="signup-message"></div>
-    </div>
-
-    <script src="javascript/index.js"></script>
+    <script src="register.js"></script>
 </body>
 </html>
