@@ -31,9 +31,9 @@
 
 form{
     position: absolute;
-    top: 9%;
-    right: 0%;
-    width: 200px;
+    top: 8%;
+    right: -10%;
+    width: 500px;
 }
 form input{
     border: 1px solid #2a4359;
@@ -74,13 +74,17 @@ form button{
 
 .logo{
     cursor: pointer;
+    align-content: flex-start;
 }
 .nav-area{
     list-style: none;
+    position: absolute;
+    left: 3%;
+    top: 5%;
 }
 .nav-area li{
-    display: inline-block;
-    padding: 5px 15px;
+    display:inline-block;
+    padding: 15px 0px;
     text-transform: uppercase;
 }
 .nav-area li a{
@@ -92,10 +96,14 @@ form button{
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
     color: #fff;
-    font-size: 16px;
+    text-align: center;
+    font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding: 20px 35px;
+    position: absolute;
+    top: 2%;
+    right: 28%;
+    padding: 20px 0px;
     border-radius: 30px 0 30px 0;
     background: #daa442;        
     transition: all .3s ease 0s;    
@@ -374,11 +382,11 @@ transition: 0.5s;
         </div>
     </div>
     <header>
-        <img class="logo" src="images/logo.png" alt="logo.png" width="35%" style="margin-bottom: 5%; margin-top: 1%;">
+        <img class="logo" src="images/logo.png" alt="logo.png" width="35%" style="margin-bottom: 5%; margin-top: 1%; margin-left:0%; margin-right:0%;">
         <nav>
             <ul class="nav-area">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Get to Know</a></li>
+                <li><a href="index.html">HOME |</a></li>
+                <li><a href="blog.html">GET TO KNOW |</a></li>
                 <li><a href="home.html">FEELS* ".blah."</a></li>
                 <li><a href="depression.html">DEPRESSION TEST</a></li>
             </ul>
