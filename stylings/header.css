@@ -53,7 +53,7 @@ form button{
     display: flex;
     justify-content: space-between;
    /* align-items: right;*/
-    padding: 0px 400px;
+    padding: 20px 400px;
     background-color: #2a4359;
 }
 
@@ -79,13 +79,14 @@ form button{
     color: #fff;
     font-size: 16px;
     letter-spacing: 2px;
+    align-content: center;
     text-transform: uppercase;
-    border-radius: 30px 5px 30px 10px;
+    border-radius: 10px 1px 10px 10px;
     background: #daa442;        
     transition: all .3s ease 0s;
-    width: 250px; 
-    padding-top: 20px; 
-    padding-bottom: 20px;  
+    width: 170px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;  
 }
 .btn-area:hover{ 
     background: blue; 
@@ -94,16 +95,16 @@ form button{
 }
 .wrapper{
     position: absolute;
-    top: 2%;
-    right: 5%;
+    top: 0%;
+    right: 2%;
 }
 
 .wrapper .button{
     margin-top: 2%;
     display: inline-block;
-    height: 70px;
+    height: 50px;
     width: 70px;
-    box-shadow: 0 10px 10px #daa442;
+    box-shadow: 0 3px 3px #daa442;
     float: right;
     margin: 0 5px;
     border-radius: 50px;
@@ -121,7 +122,8 @@ form button{
     margin-left: 10px;
 }
 .wrapper .button span a img{
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 .top-container{
     text-align: center;
