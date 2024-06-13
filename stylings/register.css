@@ -16,12 +16,12 @@ html {
 
 body {
   background: rgba(30,29,31,1);
-  background: -moz-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(30,29,31,1)), color-stop(100%, rgba(223,64,90,1)));
-  background: -webkit-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
-  background: -o-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
-  background: linear-gradient(135deg, rgba(30,29,31,1) 0%, rgba(223,64,90,1) 100%);
+  background: -moz-linear-gradient(-45deg, #daa442 0%,  #2a4359 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #daa442), color-stop(100%,  #2a4359));
+  background: -webkit-linear-gradient(-45deg, #daa442 0%,  #2a4359 100%);
+  background: -o-linear-gradient(-45deg, #daa442 0%,  #2a4359 100%);
+  background: -ms-linear-gradient(-45deg, #daa442 0%,  #2a4359 100%);
+  background: linear-gradient(135deg, #daa442 0%,  #2a4359 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e1d1f', endColorstr='#df405a', GradientType=1);
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px #daa442;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -64,7 +64,7 @@ body {
 }
 
 .form-toggle button.active {
-  color: #df405a;
+  color: #f2f3f2;
 }
 
 .form-body {
@@ -112,7 +112,7 @@ body {
 
 .submit-btn,
 .social-btn {
-  background: #df405a;
+  background: #daa442;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -126,14 +126,14 @@ body {
 
 .submit-btn:hover,
 .social-btn:hover {
-  background: #bf304a;
+  background: #2a4359;
 }
 
 .forgot-password {
   display: block;
   margin-top: 10px;
   text-align: center;
-  color: #df405a;
+  color: #f2f3f2;
   text-decoration: none;
 }
 
