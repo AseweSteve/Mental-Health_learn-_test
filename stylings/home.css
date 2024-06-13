@@ -469,7 +469,7 @@ div.banner h2{
     /* **********************************************Test********************************************************8 */
 .heading{
     font-family: 'Roboto', sans-serif;
-    color: #f2f3f2;
+    color: #daa442;
     position: absolute;
     text-align: center;
     font-size: larger;
@@ -589,7 +589,7 @@ div.banner h2{
         border: 2px solid #daa442;
         padding: 2%;
         border-radius: 50px 0 50px 0;
-        background-color: #d1defa;
+        background-color: #2a4359;
     }
     .bottom-container h1{
         font-size: 40px;

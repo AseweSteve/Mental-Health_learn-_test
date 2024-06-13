@@ -237,4 +237,97 @@ form button{
     .wrapper .button span a img{
         margin-top: 5px;
     }
+    .top-container{
+        display: flex;
+        align-items: center;
+    }
+    .symptom h1{
+        font-size: 24px;
+        padding-left: 20px;
+    }
+ .banner a{
+        color: #f2f3f2;
+        font-size: 25px;
+        padding:3px 6px;
+        border-radius: 5px;
+        border: 2px solid #f2f3f2;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+ .banner h2{
+        color: #f2f3f2;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        position: absolute;
+        left: 9%;
+        top: 10%;
+        display: none;
+    }
+    
+    .hide2{
+        opacity: 0.9;
+    }
+    
+    /* ******************************************Bottom container********************************** */
+    
+    .bottom-container{
+        margin: 30px 10px;
+        font-family: 'Roboto', sans-serif;
+        border: 2px solid #daa442;
+        padding: 2%;
+        border-radius: 50px 0 50px 0;
+        background-color: #2a4359;
+    }
+    .bottom-container h1{
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #f2f3f2;
+        text-align: center;
+    }
+    .bottom-container h3{
+        font-size: 15px;
+        color: #daa442;
+        padding: 3%;
+    }
+    .bottom-container p{
+        padding: 2%;
+        line-height: 22px;
+        color: #f2f3f2;
+        font-weight: lighter;
+    }
+   
+    footer .copyright {
+        text-align: start;
+    }
+
+    /* About Page Mobile */
+    .aboutUs {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 25px;
+        font-weight: lighter;
+        margin-top: 25px;
+        background-color:  #2a4359;
+        padding: 15px 50px;
+        color: #f2f3f2;
+    }
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .aboutUs h1 {
+        padding-left: 0px;
+        line-height: 40px;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .aboutUs h1{
+        width: 100%;
+
+    }
 }
